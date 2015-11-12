@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
 				xmlns:android="http://schemas.android.com/apk/res/android"
 				id="cordova-plugin-pushplugin"
-				version="2.6.0">
+				version="2.6.1">
 
 	<name>PushPlugin</name>
 
@@ -35,6 +35,7 @@
 	<platform name="android">
 
 		<framework src="com.google.android.gms:play-services-gcm:+" />
+		<framework src="com.android.support:support-v4:+" />
 
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="PushPlugin">
@@ -67,7 +68,6 @@
 		<source-file src="src/android/com/plugin/gcm/CordovaGCMBroadcastReceiver.java" target-dir="src/com/plugin/gcm/"/>
 		<source-file src="src/android/com/plugin/gcm/PushHandlerActivity.java" target-dir="src/com/plugin/gcm/"/>
 		<source-file src="src/android/com/plugin/gcm/PushPlugin.java" target-dir="src/com/plugin/gcm/"/>
-		<source-file src="src/android/com/plugin/android-support-v4.jar" target-dir="libs/"/>
 
 	</platform>
 
