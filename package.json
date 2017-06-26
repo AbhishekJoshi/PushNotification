@@ -11,10 +11,10 @@
     ]
   },
   "dependencies": {
-    "plugman": "undefined0.23.3"
+    "plugman": "0.23.3"
   },
   "devDependencies": {
-    "plugman": "undefined0.23.3"
+    "plugman": "0.23.3"
   },
   "repository": {
     "type": "git",
